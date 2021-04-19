@@ -1,7 +1,7 @@
 {
-  "name": "module",
-  "title": "New Module",
-  "description": "",
+  "name": "pokemon-5e",
+  "title": "Pokemon 5e",
+  "description": "Support for Pokemon 5e",
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.0.0",
@@ -9,26 +9,43 @@
   "compatibleCoreVersion": "0.7.9",
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "Roberto Pedroso",
+      "discord": "savagelung#4467"
     }
   ],
   "dependencies": [
-
+    {
+      "name": "dnd5e",
+      "type": "system"
+    },
+    {
+      "name": "furnace",
+      "manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/fvtt-module-furnace/master/module.json"
+    },
+    {
+      "name": "itemcollection",
+      "manifest": "https://gitlab.com/tposney/itemcollection/raw/master/package/module.json"
+    },
+    {
+      "name": "itemacro",
+      "manifest": "https://github.com/Kekilla0/Item-Macro/raw/master/module.json"
+    },
+    {
+      "name": "dae",
+      "manifest": "https://gitlab.com/tposney/dae/raw/master/package/module.json"
+    },
+    {
+      "name": "combat-utility-belt",
+      "manifest": "https://github.com/death-save/combat-utility-belt/releases/latest/download/module.json"
+    },
+    {
+      "name": "midi-qol",
+      "manifest": "https://gitlab.com/tposney/midi-qol/raw/master/package/module.json"
+    }
   ],
-  "conflicts": [
-    
-  ],
-  "esmodules": [
-    "/scripts/module.js"
-  ],
-  "scripts": [
-    "/scripts/lib/lib.js"
-  ],
-  "styles": [
-    "/styles/module.css"
-  ],
+  "conflicts": [],
+  "esmodules": ["/scripts/module.js"],
+  "styles": ["/styles/module.css"],
   "languages": [
     {
       "lang": "en",
@@ -43,6 +60,148 @@
     {
       "type": "icon",
       "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
+    }
+  ],
+  "packs": [
+    {
+      "name": "pokemon",
+      "label": "Pokemon",
+      "path": "packs/p5e-pokemon.db",
+      "entity": "Actor",
+      "module": "Pokemon5e"
+    },
+    {
+      "name": "moves",
+      "label": "Pokemon Moves",
+      "path": "packs/p5e-moves.db",
+      "entity": "Item",
+      "module": "Pokemon5e"
+    },
+    {
+      "name": "abilities",
+      "label": "Pokemon Abilities",
+      "path": "packs/p5e-abilities.db",
+      "entity": "Item",
+      "module": "Pokemon5e"
+    },
+    {
+      "name": "classes",
+      "label": "Pokemon Classes and Subclasses",
+      "path": "packs/p5e-classes.db",
+      "entity": "Item",
+      "module": "Pokemon5e-items"
+    },
+    {
+      "name": "subclasses",
+      "label": "Pokemon Subclass Features",
+      "path": "packs/p5e-subclass-features.db",
+      "entity": "Item",
+      "module": "Pokemon5e-items"
+    },
+    {
+      "name": "medicine",
+      "label": "Pokemon Medicines",
+      "path": "packs/p5e-medicine.db",
+      "entity": "Item",
+      "module": "Pokemon5e-items"
+    },
+    {
+      "name": "pokeball",
+      "label": "Pokemon Pokeballs",
+      "path": "packs/p5e-pokeball.db",
+      "entity": "Item",
+      "module": "Pokemon5e-items"
+    },
+    {
+      "name": "pokedex-types",
+      "label": "Pokemon Pokedex Types",
+      "path": "packs/p5e-pokedex-types.db",
+      "entity": "Item",
+      "module": "Pokemon5e-items"
+    },
+    {
+      "name": "x-item",
+      "label": "Pokemon X-Items",
+      "path": "packs/p5e-x-item.db",
+      "entity": "Item",
+      "module": "Pokemon5e-items"
+    },
+    {
+      "name": "evolution",
+      "label": "Pokemon Evolution Items",
+      "path": "packs/p5e-evolution.db",
+      "entity": "Item",
+      "module": "Pokemon5e-items"
+    },
+    {
+      "name": "berry",
+      "label": "Pokemon Berries",
+      "path": "packs/p5e-berry.db",
+      "entity": "Item",
+      "module": "Pokemon5e-items"
+    },
+    {
+      "name": "held-item",
+      "label": "Pokemon Held Items",
+      "path": "packs/p5e-held-item.db",
+      "entity": "Item",
+      "module": "Pokemon5e-items"
+    },
+    {
+      "name": "items",
+      "label": "Pokemon Items",
+      "path": "packs/p5e-items.db",
+      "entity": "Item",
+      "module": "Pokemon5e-items"
+    },
+    {
+      "name": "badges",
+      "label": "Pokemon Trainer Badges",
+      "path": "packs/p5e-badges.db",
+      "entity": "Item",
+      "module": "Pokemon5e-items"
+    },
+    {
+      "name": "tm",
+      "label": "Pokemon Technical Machines",
+      "path": "packs/p5e-tms.db",
+      "entity": "Item",
+      "module": "Pokemon5e-items"
+    },
+    {
+      "name": "natures",
+      "label": "Pokemon Natures",
+      "path": "packs/p5e-natures.db",
+      "entity": "Item",
+      "module": "Pokemon5e-items"
+    },
+    {
+      "name": "loyalties",
+      "label": "Pokemon Loyalties",
+      "path": "packs/p5e-loyalties.db",
+      "entity": "Item",
+      "module": "Pokemon5e-items"
+    },
+    {
+      "name": "conditions",
+      "label": "Pokemon Conditions",
+      "path": "packs/p5e-conditions.db",
+      "entity": "JournalEntry",
+      "module": "Pokemon5e-items"
+    },
+    {
+      "name": "tables",
+      "label": "Pokemon Rolltables",
+      "path": "packs/p5e-tables.db",
+      "entity": "RollTable",
+      "module": "Pokemon5e-items"
+    },
+    {
+      "name": "macros",
+      "label": "Pokemon Macros",
+      "path": "packs/p5e-macros.db",
+      "entity": "Macro",
+      "module": "Pokemon5e-items"
     }
   ]
 }

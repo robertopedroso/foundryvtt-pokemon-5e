@@ -1,0 +1,355 @@
+{
+  "system": "dnd5e",
+  "map": [
+    {
+      "name": "Blinded",
+      "icon": "modules/pokemon-5e/images/conditions/S_BLN-SM.png",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "combat-utility-belt.conditionsdnd5e",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.oScVqOHJt5SQszVl]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "name": "Charmed",
+      "icon": "modules/pokemon-5e/images/conditions/S_CHA-SM.png",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "combat-utility-belt.conditionsdnd5e",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.UWlXFfSX95JVWrYs]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "name": "Concentrating",
+      "icon": "modules/pokemon-5e/images/conditions/S_CONCENTRATE-SM.png",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "combat-utility-belt.conditionsdnd5e",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.nSoKejZfahbxfggp]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "name": "Deafened",
+      "icon": "modules/pokemon-5e/images/conditions/S_DFN-SM.png",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "combat-utility-belt.conditionsdnd5e",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.p9CQYqWS7s4Abwqk]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "name": "Exhaustion 1",
+      "icon": "modules/pokemon-5e/images/conditions/EXHAUST1.png",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "combat-utility-belt.conditionsdnd5e",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.4Z1Ins4wHUAWJal2]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "name": "Exhaustion 2",
+      "icon": "modules/pokemon-5e/images/conditions/EXHAUST2.png",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "combat-utility-belt.conditionsdnd5e",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.4Z1Ins4wHUAWJal2]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "name": "Exhaustion 3",
+      "icon": "modules/pokemon-5e/images/conditions/EXHAUST3.png",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "combat-utility-belt.conditionsdnd5e",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.4Z1Ins4wHUAWJal2]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "name": "Exhaustion 4",
+      "icon": "modules/pokemon-5e/images/conditions/EXHAUST4.png",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "combat-utility-belt.conditionsdnd5e",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.4Z1Ins4wHUAWJal2]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "name": "Exhaustion 5",
+      "icon": "modules/pokemon-5e/images/conditions/EXHAUST5.png",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "combat-utility-belt.conditionsdnd5e",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.4Z1Ins4wHUAWJal2]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "name": "Frightened",
+      "icon": "modules/pokemon-5e/images/conditions/S_FEAR-SM.png",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "combat-utility-belt.conditionsdnd5e",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.PTANb5kCweCv3Jna]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "name": "Grappled",
+      "icon": "modules/pokemon-5e/images/conditions/S_GRAPPLE-SM.png",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "combat-utility-belt.conditionsdnd5e",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.qKqW3LJEQpJ7T3v8]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "name": "Incapacitated",
+      "icon": "modules/pokemon-5e/images/conditions/S_INCAP-SM.png",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "combat-utility-belt.conditionsdnd5e",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.hWk0QM9u7SUpd4BX]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "name": "Invisible",
+      "icon": "modules/pokemon-5e/images/conditions/S_INVIS-SM.png",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "combat-utility-belt.conditionsdnd5e",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.pSvtps6WHVAuWh9l]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "name": "Paralyzed",
+      "icon": "modules/pokemon-5e/images/conditions/S_PAR-SM.png",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "combat-utility-belt.conditionsdnd5e",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.o5oZVdHSWmceeFyx]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "name": "Petrified",
+      "icon": "modules/pokemon-5e/images/conditions/S_PETRIFIED-SM.png",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "combat-utility-belt.conditionsdnd5e",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.KaKNDyLeWRGqpBlc]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "name": "Poisoned",
+      "icon": "modules/pokemon-5e/images/conditions/S_PSN-SM.png",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "combat-utility-belt.conditionsdnd5e",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.eJQ3ve6RTdjbNGEz]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "name": "Prone",
+      "icon": "modules/pokemon-5e/images/conditions/S_PRONE-SM.png",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "combat-utility-belt.conditionsdnd5e",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.ekm4TUHKT3QUPdPv]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "name": "Restrained",
+      "icon": "modules/pokemon-5e/images/conditions/S_RESTRAINED-SM.png",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "combat-utility-belt.conditionsdnd5e",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.0mkU8eksNfwd1AZY]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "name": "Stunned",
+      "icon": "modules/pokemon-5e/images/conditions/S_STUN-SM.png",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "combat-utility-belt.conditionsdnd5e",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.IDLJEkgkdcnljtEW]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "name": "Unconscious",
+      "icon": "modules/pokemon-5e/images/conditions/S_FEINT-SM.png",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "combat-utility-belt.conditionsdnd5e",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.S499QUmXTVx81wk8]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": true,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "name": "Frozen",
+      "icon": "modules/pokemon-5e/images/conditions/S_FRZ-SM.png",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "pokemon-5e.conditions",
+      "referenceId": "@Compendium[pokemon-5e.conditions.2k38DNJqTDHUrlj6]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "name": "Burned",
+      "icon": "modules/pokemon-5e/images/conditions/S_BRN-SM.png",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "pokemon-5e.conditions",
+      "referenceId": "@Compendium[pokemon-5e.conditions.l806mVOG3uJ1iwpo]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "name": "Asleep",
+      "icon": "modules/pokemon-5e/images/conditions/S_SLP-SM.png",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "pokemon-5e.conditions",
+      "referenceId": "@Compendium[pokemon-5e.conditions.tzsDgxAEvJCseEl1]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "name": "Confused",
+      "icon": "modules/pokemon-5e/images/conditions/S_CNF-SM.png",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "pokemon-5e.conditions",
+      "referenceId": "@Compendium[pokemon-5e.conditions.gahfnC06lzdmnevR]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "name": "Flinched",
+      "icon": "modules/pokemon-5e/images/conditions/S_FLC-SM.png",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "pokemon-5e.conditions",
+      "referenceId": "@Compendium[pokemon-5e.conditions.X6qQMxQ679MclAGX]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    }
+  ]
+}
