@@ -1,4 +1,4 @@
-Hooks.once("init", async function () {
+Hooks.once("setup", async function () {
   console.log("Pokemon5e Addons | Initializing");
 
   CONFIG.DND5E.damageTypes["bug"] = "P5E.DamageBug";

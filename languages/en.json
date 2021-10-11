@@ -1,3 +1,18 @@
 {
-  "P5E.DamageWater": "Water"
+  "P5E.DamageBug": "Bug",
+  "P5E.DamageDark": "Dark",
+  "P5E.DamageDragon": "Dragon",
+  "P5E.DamageElectric": "Electric",
+  "P5E.DamageFairy": "Fairy",
+  "P5E.DamageFighting": "Fighting",
+  "P5E.DamageFlying": "Flying",
+  "P5E.DamageGhost": "Ghost",
+  "P5E.DamageGrass": "Grass",
+  "P5E.DamageGround": "Ground",
+  "P5E.DamageIce": "Ice",
+  "P5E.DamageNormal": "Normal",
+  "P5E.DamageRock": "Rock",
+  "P5E.DamageSteel": "Steel",
+  "P5E.DamageWater": "Water",
+  "DND5E.SkillArc": "Technology"
 }
